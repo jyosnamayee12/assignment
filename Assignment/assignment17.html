@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment 17</title>
+    <style>
+        body{
+            background-color: crimson;
+            
+        }
+        fieldset{
+            width: fit-content;
+            margin: 100px 0 0 400px;
+            height:fit-content;
+            background:linear-gradient(25deg,crimson,red,deeppink,orange);
+            align-content: center;
+            
+        }
+        label{
+            
+            color:ghostwhite;
+            font-size: 15px;
+        }
+        
+        input{
+            font-style:normal;
+            font-size: 10px;
+            font-weight:lighter;
+        }
+        button{
+            height:25px;
+            width:250px;
+            color: black;
+            margin-left:35px;
+            border-radius: 5px;
+            vertical-align: bottom;
+        }
+        a{
+            text-decoration: none;
+            color:black;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            
+            <table cell-spacing="20" cell-padding="10">
+                <tr>
+                    <td><label for="#id">Name:</label></td>
+                    <td><input type="text" placeholder="your name" id="id"></td>
+                </tr>
+                <tr>
+                    <td><label for="#email">Email:</label></td>
+                    <td><input type="email" placeholder="your email-id" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="#pwd">Password:</label></td>
+                    <td><input type="password"  id="pwd"></td>
+                </tr>
+                <tr>
+                    <td><label for="#phn">Phone number:</label></td>
+                    <td><input type="number" id="phn"></td>
+                </tr>
+                <tr>
+                    <td><label for="#gender">Gender:</label></td>
+                    <td><input type="radio" name="gender" id="gender">MALE:
+                        <input type="radio" name="gender" id="gender">Female:
+                        <input type="radio" name="gender" id="gender">Others:</td>
+                </tr>
+                
+                <tr>
+                    <td><label for="">language:</label></td>
+                     <td><select name="" id="">
+                        <option value="">..Select language..</option>
+                        <option value="">english</option>
+                        <option value="">hindi</option>
+                        <option value="">odia</option>
+                        <option value="">bengoli</option>
+                        <option value="">telgu</option>
+                     </select>
+                           </td>
+                </tr>
+                <tr>
+                    <td><label for="#zip">Zip Code:</label></td>
+                     <td><input type="number" id="zip"></td>
+                </tr>
+                <tr>
+                    <td><label for="">About:</label></td>
+                    <td><textarea id="" cols="20" rows="2" placeholder="write about yourself"></textarea></td>
+                </tr>
+                
+                
+            
+            </table>
+            <button><a href="" target="">Register</a></button>
+        </fieldset>
+    </form>
+</body>
+</html>

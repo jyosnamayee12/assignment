@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment-19</title>
+    <style>
+        body{
+            background:linear-gradient(45deg,rgb(18, 152, 247),lightblue);
+        }
+        fieldset{
+            width: 750px;
+            margin: 100px 0 0 400px;
+            height:300px;
+            border: none;
+        }
+        label{
+            text-align: left;
+            font-size: 15px;
+            color: ghostwhite;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        }
+        input,textarea{
+            border:1px solid black;
+            position: relative;
+            left:50px;
+            padding:2px;
+            
+        }
+        h1{
+            color: ghostwhite;
+            font-size: 20px;
+            font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        h1:hover{
+            border: 2px dotted grey;
+            
+        }
+        fieldset:hover{
+            border: 2px dashed blueviolet;
+            border-radius: 30px;
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <h1>Contact form</h1>
+    <form action="">
+        <table>
+            <tr>
+                <td>
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" placeholder="First Name" >
+                    <input type="text" id="name" placeholder="Last Name" >
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                <label for="mail">Your Email</label>
+                <input type="text" id="mail" placeholder="e.g.hello@contact.net">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="phn">Phone Nos</label>
+                    <input type="text" id="phn" placeholder="###">
+                    <input type="text" id="phn" placeholder="###">
+                    <input type="text" id="phn" placeholder="####">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">Message Subject**</label>
+                    <select  id="">
+                        <option value="">Other</option>
+                        <option value="">english</option>
+                        <option value="">hindi</option>
+                        <option value="">odia</option>
+                        <option value="">math</option>
+                        <option value="">science</option>
+                     </select>
+                </td>
+        </tr>
+            <tr>                    
+                <td>
+                    <label for="">Message**</label>
+                    <textarea id="" cols="20" rows="2" ></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">verification</label>
+                    <input type="text">
+                </td>
+        </tr>
+        <tr>
+            <td><hr></td>
+        </tr>
+        
+            <tr>
+               <td>
+                <button>SUBMIT FORM</button>
+               </td> 
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>
