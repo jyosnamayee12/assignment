@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment 22</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+        }
+        img{
+            display: block;
+            height: 80px;
+            cursor: pointer;
+            margin-right: auto;
+            border: 2px inset red;
+            box-shadow: 10px 5px 5px orangered;
+        }
+        nav{
+            display:contents;
+            
+        }
+        header{
+            background-color: black;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 10px;
+            
+        }
+        a{
+            display: inline;
+            margin-left: 150px;
+            text-decoration: none;
+            color:ghostwhite;
+            font-family:Bodoni MT Condensed ;
+            font-size: 20px;
+            padding: 5px;
+        }
+        a:hover{
+            border: 2px inset red;
+            box-shadow: 10px 5px 5px red;
+        }
+        div{
+            padding: 10px;
+        
+        }
+        .details{
+            text-align: center;
+            font-family:Bodoni MT Condensed ;
+            font-size: 20px;
+        }
+        fieldset{
+            margin-top: 50px;
+            width: 500px;
+            border:1px groove ghostwhite;
+            box-shadow: 10px 5px 5px red;
+            padding: 50px;
+            margin-left: 500px;
+            
+        }
+       
+        p{
+            font-family: Avenir;
+        }
+        #btn{
+            
+            display: inline-block;
+            padding: 6px;
+            margin-left:10px;
+            font-size:10px ;
+            text-align:center;
+            vertical-align:middle;
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            text-decoration: none;
+            color:white;
+            background-color:red;
+    
+        }
+        label{
+            background-color: black;
+            color: ghostwhite;
+            width: 40px;
+            /*-moz-border-radius-bottomright:4px;
+            -webkit-border-bottom-right-radius:4px;
+            border-bottom-right-radius:4px;
+            -moz-border-radius-topright:4px;
+            -webkit-border-top-right-radius:4px;
+            border-top-right-radius:4px;*/
+            border:0px solid black
+        }
+        ::placeholder{
+            color: black;
+        }
+        input,textarea{
+            border:1px groove black;
+            
+            border-radius: 2px;
+        }
+    </style>
+</head>
+<body style="background-color: lightgray;">
+    
+    <header>
+        
+    <nav>
+        <img src="../image/black_sheep_logo.jpg" alt="">
+        <a href=""><i class="fa-solid fa-house"></i>ABOUT BLACK SHEEP</a>
+        <a href="">NEWS/FEATURES/FACTS</a>
+        <a href="">WEBSITE SERVICES</a>
+        <a href="">GALLERY/PORTFOLIO</a>
+        <a href="">CONTACT US</a>
+    </nav>
+    
+</header>
+<div class="details">
+<h1>CONTACT US</h1>
+<p>Email us any question or inquires or call 518-387-9327.we would be<br> happy to answer your questions and set up a meeting with you.Black<br> Sheep Web Design can help set you apart from the flock!</p>
+</div>
+<div class="form">
+<form action="">
+    <fieldset>
+        <table>
+            <tr>
+                <td><label for="#name">NAME:</label></td>
+                <td><input type="text" placeholder="Name" id="name" height:40px></td></tr>
+            <tr>
+                <td><label for="#mail">EMAIL:</label></td>
+                <td><input type="email" placeholder="Email" id="mail" required height:40px>
+                    <h6>please use a Real email address so that we can get back to you.</h6></td></tr>
+                
+            <tr>
+                <td><label for="#sub">SUBJECT:</label></td>
+            <td><input type="text" placeholder="Inquiry for Black sheep Web Design" id="sub" height:40px></td></tr>
+            <tr>
+                <td><label for="a3">MESSAGE:</label></td>
+                <td><textarea  id="a3" cols="30" rows="6" height:40px>Message</textarea></td></tr>
+            <tr>
+                <td><label for="#skills">SEND ME A COPIED:</label></td>
+                <td><input type="checkbox" id="skills"></td></tr>
+            <tr>
+                <td><input type="submit"value="SEND EMAIL" id="btn"></td></tr>
+        </table>
+    </fieldset>
+</form>
+</div>
+</body>
+</html>

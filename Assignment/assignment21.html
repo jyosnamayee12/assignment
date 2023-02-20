@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>assignment 21</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        header{
+            background-color: lightgray;
+        }
+        span:nth-child(6){
+            color:red;
+        }
+        h1{
+        margin-left: 20px;
+        }
+        .text-block {
+            position: absolute;
+            top: 200px;
+            left:500px;
+            color:black;
+            padding-left: 2px;
+            padding-right: 2px;
+            text-align: center;
+            
+        }
+        img{
+            width:1600px;
+            height:300px;
+        }
+        
+
+input[type=text],select{
+
+  width: 50%;
+  padding: 5px;
+  border: 1px solid black;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  
+}
+body{
+    background:linear-gradient(30deg,rgb(229, 200, 200),lightgray);
+}
+.column0{
+border: 2px solid black;
+  position: absolute;
+  top: 400px;
+  left: 150px;
+  width: 250px;
+  height:100px;
+  padding:5px;
+  background-color: lightslategray;
+  box-shadow: 10px 5px 5px black;
+}
+
+.column1{
+border: 2px solid black;
+position: absolute;
+  bottom: 8px;
+  left: 150px;
+  width: 250px;
+  height:100px;
+  padding:5px;
+  background-color: lightslategray;
+  box-shadow: 10px 5px 5px black;
+}
+.column2{
+border: 2px solid black;
+box-shadow: 10px 5px 5px black;
+position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: lightslategray;
+
+}
+h2,p,h5{
+    color: black;
+    text-align:center;
+    margin-top: -10px;
+    padding: 5px;
+}
+div{
+    display:inline;
+}
+button{
+    
+    display: inline-block;
+            padding: 6px;
+            margin-left:20px;
+            font-size:15px ;
+            text-align:left;
+            
+            cursor: pointer;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            
+            background-color:blue;
+    
+   
+}
+a{
+  text-decoration: none;
+  color: ghostwhite;
+  
+
+}
+#blue{
+    color:aqua;
+    font-style: italic;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+        <span>H</span>
+        <span>u</span>
+        <span>b</span>
+        <span>S</span>
+        <span>p</span>
+        <span>O</span>
+        <span>t</span></h1>
+    </header>
+    <img src="../image/b2.jfif" alt="">
+    <div class="text-block">
+    <h2 text-align="center">CONTACT US ABOUT HUBSPOT'S <br>SOFTWARE</h2>
+        <p>we'd love to show you how you can get more traffic and leads,increase your sales <br>productivity,provide better customer service,or all of the above ! Here are a few ways <br>to reach out to our sales team.</p>
+    </div>
+
+  <div class="column0">
+        <i class="fa-solid fa-phone"></i>Call us directly AT <span id="blue">+353 1 512 4400</span>
+      <span>see all our live location</span>
+    </div>
+    <div class="column1">
+        <i class="fa-solid fa-comment-dots"></i>chat with our sales TEAM<br>
+        <button><a href="#">CHAT WITH SALES</a></button>
+    </div>
+    <div class="column2">
+      <form action="">
+        <fieldset>
+            <h2>Book a Meeting</h2>
+            <h5>To schedule time to speak with one of our sales representatives,<br> complete the form, then click"next"<br> to choose a date and time that works for you.</h5>
+        <table>
+            <tr>
+            <td><label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="first name"></td>
+        <td><label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="last name.."></td></tr>
+        <tr>
+            <td><label for="mail">Email</label>
+        <input type="email" id="" name="mail"></td>
+        <td><label for="phn">phone</label>
+            <input type="number" id="" name="phn"></td></tr>
+        <tr>
+            <td colspan="2"><select id="country">
+            <option>Please select...</option>
+          <option >Australia</option>
+          <option >Canada</option>
+          <option >USA</option>
+        </select>
+    </td></tr>
+        </table>
+        </fieldset>
+        </form>
+    </div>
+  
+  
+</body>
+</html>
